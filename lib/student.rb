@@ -10,7 +10,6 @@ class Student < User
 
   def knowledge
     "#{@knowledge.join} knowledge"
-    
   end
 
 end
