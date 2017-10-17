@@ -8,4 +8,9 @@ class Student < User
     @knowledge << string
   end
 
+  def knowledge
+    "#{@knowledge.join} knowledge"
+    
+  end
+
 end
